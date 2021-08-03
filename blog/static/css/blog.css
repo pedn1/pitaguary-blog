@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+.post {
+    padding: 20px;
+}
+
+.page-header {
+    background-color: green;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.page-header .voltar {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.page-header .voltar:hover {
+    color: orange;
+    border: 2px orange solid;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.material-icons {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #828282;
+}
+
+.date p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.post p {
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    color: green;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.post span {
+    padding: 5px;
+    color: orange;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+    background: white;
+    box-shadow: 2px 2px 5px 2px grey;
+    border-radius: 10px;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: darkgreen;
+}
+
+.post h2 a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
